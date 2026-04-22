@@ -1,5 +1,7 @@
 package br.projetopessoal.carstoregateway.model;
 
+import java.util.List;
+
 public class Cliente {
 
     private String nome;
@@ -10,4 +12,5 @@ public class Cliente {
     private String cidade;
     private String estado;
     private String cep;
+    private List<Carro> carro;
 }
