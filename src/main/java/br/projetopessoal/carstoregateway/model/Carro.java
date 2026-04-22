@@ -4,7 +4,6 @@ import br.projetopessoal.carstoregateway.model.enuns.Status;
 
 public class Carro {
 
-    private String id;
     private String modelo;
     private int ano;
     private String cor;
