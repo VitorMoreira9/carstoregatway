@@ -1,3 +1,7 @@
 spring:
   application:
     name: carstoregateway
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/carstore
+      database: carros
